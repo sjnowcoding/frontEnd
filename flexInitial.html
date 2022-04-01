@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+<style>
+  #mainPart {
+      width:100%;
+      height:50px;
+      display:flex;
+ 
+  }
+  #mainPart div{
+     border:1px solid gray;
+      flex:1;
+  }
+/* flex속성으로 묶여있기 때문에 #mainPart 안의 three라는 것을 명시해준다. */
+#mainPart .three{
+    /* flex속성을 초기화하고 너비를 50px로 고정합니다. */
+    width:50px;  
+    flex:initial;  
+}
+.one{ background-color: lightgray;}
+.three{ background-color: orange;}
+
+
+</style>
+
+
+</head>
+<body>
+ <div id="mainPart">
+    <div class="one">ONE</div>
+    <div class="two">TWO</div>
+    <div class="three">THREE</div>
+
+ </div>
+
+</body>
+</html>
