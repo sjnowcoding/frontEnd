@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+
+<!-- get font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<!-- font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'NanumSquareLight';
+font-family: 'NanumSquare';
+font-family: 'NanumSquareBold';
+font-family: 'NanumSquareExtraBold';
+font-family: 'NanumSquareAcb';
+font-family: 'NanumSquareAceb';
+font-family: 'NanumSquareAcl';
+font-family: 'NanumSquareAcr';
+ -->
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+        color: #353535;
+        font-family:"Roboto","NaumSquare", sans-serif;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    ul,li {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* vw, vh와 position을 이용한 레이아웃 잡기  */
+    .intro_section1 .main_title{
+        font-size: 8vw; /* 화면 너비에 따라 폰트크기가 달라짐 */
+        font-family: 'Nanum Myeongjo';
+        font-weight:700;
+
+        /* 레이아웃: 화면 가운데로 조정하기 */
+        position: absolute; /*부모를 기준으로 */
+        /*기준점을 중심으로 옮기기 */
+        top:50vh;
+        left:50vw;
+
+        /* margin을 이용하여 중심 이동하기 */
+        margin-top:-10vh;
+        margin-left:-28vw;
+
+    }
+
+    .intro_section1 .sub_title{
+        font-size: 1.2vw;
+        font-weight:500;
+        
+        /* 위치잡기 */
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        margin-top: 10vw;
+        margin-left: -11vw;
+        
+
+    }
+
+</style>
+
+
+</head>
+<body>
+    <div class="intro_section1">
+        <div class="main_title">
+            디자이너에 의한, <br/>
+            디저이너를 위한,
+        </div>
+
+        <div class="sub_title">
+            Development Education for Designer
+        </div>
+
+    </div>
+</body>
+</html>
